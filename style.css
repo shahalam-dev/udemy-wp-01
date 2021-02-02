@@ -9,3 +9,7 @@ Tested up to: 5.4
 Requires PHP: 7.0
 
 */
+
+body {
+    color: brown;
+}

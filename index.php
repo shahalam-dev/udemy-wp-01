@@ -1,4 +1,6 @@
 <?php 
+    // fetch header
+    get_header();
 
     while(have_posts()){
         the_post(); ?>
@@ -7,4 +9,6 @@
         <hr>
         <?php
     }
+    // fetch footer
+    get_footer();
 ?>
