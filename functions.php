@@ -12,6 +12,9 @@
 
 
     function university_features(){
+        register_nav_menu( 'headerMenuLocation', 'Header Menu' );
+        register_nav_menu( 'footerMenuOne', 'Footer Menu One' );
+        register_nav_menu( 'footerMenuTwo', 'Footer Menu One' );
         add_theme_support('title-tag');
     }
     add_action('after_setup_theme', 'university_features');
